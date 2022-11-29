@@ -5,7 +5,7 @@ In response to a growing demand from various teams wanting to better understand 
 **Please note that the data fields/results/labels have been blocked-out for confidentiality purposes. 
 
 ## Dashboard
-This is the first tab of 7 that gives a high level overview of customer churn activity broken out by different KPI's. 
+This is the first tab of 7 that gives a high level overview of customer churn activity broken out by different metrics and KPI's. 
 
 ![ChurnSummaryPage1](https://user-images.githubusercontent.com/69849998/204414424-09e1ec39-3d28-4bfa-a066-93d248191eb5.png)
 

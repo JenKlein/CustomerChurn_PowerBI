@@ -9,6 +9,8 @@ This is the first tab of 7 that gives a high level overview of customer churn ac
 
 ![ChurnSummaryPage1](https://user-images.githubusercontent.com/69849998/204414424-09e1ec39-3d28-4bfa-a066-93d248191eb5.png)
 
+
+
 I built a filter panel to allow users to drill down on various metrics, while maximizing space on the dashboard for visualizations. 
 
 ![ChurnSummaryPage1-filter](https://user-images.githubusercontent.com/69849998/204414532-2f370900-d6a2-47f5-98a0-12e2ff3fa69d.png)

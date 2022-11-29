@@ -14,5 +14,6 @@ I built a filter panel to allow users to drill down on various metrics, while ma
 ![ChurnSummaryPage1-filter](https://user-images.githubusercontent.com/69849998/204414532-2f370900-d6a2-47f5-98a0-12e2ff3fa69d.png)
 
 ## Data Model
-The data model follows the star schema method, which is explained in detail [here](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema).
+The data model follows the star schema method, which is explained in detail [here](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema). The first row of tables are the dimension tables, and the bottom row of tables in addition to the Churn table are the fact tables. 
 
+![image (2)](https://user-images.githubusercontent.com/69849998/204418754-1ffb113c-16a3-4be6-bae1-a17931968129.png)

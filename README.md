@@ -6,9 +6,12 @@ In response to a growing demand from various teams wanting to better understand 
 
 
 ## Data Model
-The data model follows the star schema method, which is explained in detail [here](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema). The first row of tables, as well as the Date table are the dimension tables, and the bottom row of tables in addition to the Churn table are the fact tables. 
+The data model follows the star schema method, which is explained in detail [here](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema). 
 
-![image (2)](https://user-images.githubusercontent.com/69849998/204418754-1ffb113c-16a3-4be6-bae1-a17931968129.png)
+The top row of tables are the dimension tables, and the bottom row of tables are the fact tables. 
+
+![image001](https://user-images.githubusercontent.com/69849998/204644830-e50632b4-6e02-4829-a087-f3eeae22df2a.png)
+
 
 ## Sample Dashboard tab from report
 This is the first tab of 7 that gives a high level overview of customer churn activity broken out by different metrics and KPI's. 

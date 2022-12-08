@@ -2,13 +2,11 @@
 
 In response to a growing demand from various teams wanting to better understand customer churn, I developed a comprehensive Churn report in PowerBI. The report features visualizations that are interactive, self-serve and automated to empower end users to make data-driven decisions. 
 
-**Please note that the data fields/results/labels have been blocked-out for confidentiality purposes. 
-
 
 ## Data Model
-The data model follows the star schema method, which is explained in detail [here](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema). 
+I built the data model using the star schema method, which is explained in detail [here](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema). As is mentioned in the link, dimension tables support filtering and grouping, and fact tables support summarization. Fields that occured in many of the tables/SQL-pulls, such as location or product-type, were stored in dimension tables for optimized filtering. 
 
-The top row of tables are the dimension tables, and the bottom row of tables are the fact tables. 
+In the screenshot below, the top row of tables are the dimension tables, and the bottom row of tables are the fact tables. 
 
 ![image001](https://user-images.githubusercontent.com/69849998/204644830-e50632b4-6e02-4829-a087-f3eeae22df2a.png)
 
@@ -16,6 +14,7 @@ The top row of tables are the dimension tables, and the bottom row of tables are
 ## Sample Dashboard tab from report
 This is the first tab of 7 that gives a high level overview of customer churn activity broken out by different metrics and KPI's. 
 
+**Please note that the data fields/results/labels have been blocked-out for confidentiality purposes.
 ![ChurnSummaryPage1](https://user-images.githubusercontent.com/69849998/204414424-09e1ec39-3d28-4bfa-a066-93d248191eb5.png)
 
 
